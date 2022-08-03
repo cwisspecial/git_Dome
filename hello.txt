@@ -1,16 +1,28 @@
-hello world!  22222
-hello world!  33333
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world!
-hello world! master test
-hello world! hot-fix test
+设置用户签名: 
+git config --global user.name 用户名
+git config --global user.email 邮箱
+git 首次安装必须设置用户签名，负责不能提交代码
+
+初始化本地库
+git init
+生成一个git目录,是一个隐藏文件
+
+查看本地库状态
+git status
+
+添加到暂存区
+git add 文件名(有后缀)
+
+提交到本地库
+git commit -m "日志信息" 文件名
+
+查看版本信息
+git reflog
+
+git log 
+
+版本穿梭
+git reset --hard 版本号
+
+
+
